@@ -10,6 +10,7 @@ class MealsApp extends StatelessWidget {
     return MaterialApp(
       title: 'Meals',
       theme: ThemeData(primarySwatch: Colors.blue),
+      home: HomePage(),
     );
   }
 }
